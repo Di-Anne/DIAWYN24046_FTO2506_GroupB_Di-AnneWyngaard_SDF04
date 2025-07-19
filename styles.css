@@ -22,9 +22,9 @@ body {
 /*Form column styling*/
 .subscribe-section {
     border: 2px solid #fff;
-    width: 200px;
+    width: 235px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .subscribe {
@@ -32,7 +32,7 @@ body {
     font-size: 0.6rem;
     border: none;
     border-radius: 5px; 
-    padding: 0.2rem 0.5rem
+    padding: 0.5rem 1rem;
 }
 
 .btn {
