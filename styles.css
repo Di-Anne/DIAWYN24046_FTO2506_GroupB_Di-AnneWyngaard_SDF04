@@ -14,9 +14,10 @@ body {
     border-bottom: 1px solid rgb(219, 97, 36);
 }
 
-.form .quick-link .technologies{
-    justify-content: center;
+.quick-link, .technologies {
+    justify-items: center;
 }
+
 
 /*Form column styling*/
 .subscribe-section {
@@ -26,14 +27,14 @@ body {
     justify-content: space-around;
 }
 
-input{
+.email {
     font-size: 0.6rem;
     border: none;
     border-radius: 8px;
     padding: 0.3rem 1rem; 
 }
 
-button {
+.btn-subscribe {
     font-size: 0.6rem;
     display: inline-block;
     color: #fff;
