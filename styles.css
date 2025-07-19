@@ -22,7 +22,7 @@ body {
 /*Form column styling*/
 .subscribe-section {
     border: 2px solid #fff;
-    width: 70%;
+    width: 200px;
     display: flex;
     justify-content: space-around;
 }
@@ -32,12 +32,8 @@ body {
     font-size: 0.6rem;
     border: none;
     border-radius: 5px; 
-    padding: 0.5rem 1.5rem
+    padding: 0.2rem 0.5rem
 }
-
-/*.email { 
-    flex: 1 1 0;
-}*/
 
 .btn {
     color: #fff;
@@ -46,7 +42,6 @@ body {
 /* Form column styling*/
 
 /*codespace-logo styling*/
-
 .logo {
     margin-top: 1.5em;
     width: 100px;
