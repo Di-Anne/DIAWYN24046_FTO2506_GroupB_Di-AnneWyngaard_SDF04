@@ -14,17 +14,20 @@ body {
 /*Form column styling*/
 .subscribe-section {
     border: 2px solid #fff;
+    width: 70%;
     display: flex;
     justify-content: space-around;
 }
 
 input{
+    font-size: 0.6rem;
     border: none;
     border-radius: 8px;
-    padding: 0.5rem 1.5rem;
+    padding: 0.3rem 1rem; 
 }
 
 button {
+    font-size: 0.6rem;
     display: inline-block;
     color: #fff;
     background-color: rgb(219, 97, 36);
