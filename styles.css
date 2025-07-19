@@ -1,7 +1,7 @@
 body {
    background-color: rgb(80, 140, 118); 
-   margin: 8em;
-   font-size: 10px;
+   margin: 10em;
+   font-size: 12px;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: rgb(43, 46, 45);
 }
@@ -44,6 +44,8 @@ body {
 /*codespace-logo styling*/
 .logo {
     margin-top: 1.5em;
-    width: 100px;
+    width: 120px;
 }
 /*codespace-logo styling*/
+
+
