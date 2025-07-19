@@ -36,6 +36,9 @@ body {
         "quick quick quick"
         "tech tech tech";
     }
+    .subscribe-section {
+        flex-direction: column;
+    }
 }
 
 .form {
@@ -60,7 +63,7 @@ body {
     /*border: 2px solid #fff;*/
     width: 235px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .subscribe {
