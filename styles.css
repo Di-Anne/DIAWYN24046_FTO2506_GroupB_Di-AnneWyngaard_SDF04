@@ -10,10 +10,44 @@ body {
     padding: 1.5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, fr);
+    grid-template-rows: repeat(3, fr);
+    grid-template-areas:
+    "form quick tech"
+    "form quick tech";
     grid-gap: 20px;
     border: 1px solid #fff;
     border-bottom: 1px solid rgb(219, 97, 36);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "form form form"
+        "quick . tech";
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "form form form"
+        "quick quick quick"
+        "tech tech tech";
+    }
+}
+
+.form {
+    grid-area: form;
+}
+
+.quick-link {
+    grid-area: quick;
+}
+
+.technologies {
+    grid-area: tech;
 }
 
 .quick-link, .technologies {
