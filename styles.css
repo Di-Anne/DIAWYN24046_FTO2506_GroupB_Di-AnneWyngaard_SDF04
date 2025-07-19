@@ -1,12 +1,12 @@
 body {
    background-color: rgb(80, 140, 118); 
+   margin: 0;
    font-size: 10px;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: rgb(43, 46, 45);
 }
 
 .container {
-    width: 80%;
     padding: 1.5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,21 +27,26 @@ body {
     justify-content: space-around;
 }
 
-.email {
+/*.subscribe-section>* {
+    flex: 1 1 0;
+}*/
+
+.subscribe {
+    display: inline-block;
     font-size: 0.6rem;
     border: none;
-    border-radius: 8px;
-    padding: 0.3rem 1rem; 
+    border-radius: 5px; 
+    padding: 0.5rem 1.5rem;
 }
 
-.btn-subscribe {
-    font-size: 0.6rem;
-    display: inline-block;
+.email { 
+    flex: 1 1 0;
+}
+
+.btn {
     color: #fff;
-    background-color: rgb(219, 97, 36);
-    border: none;
-    border-radius: 8px; 
-    padding: 0.5rem 1.5rem;
+    background-color: rgb(219, 97, 36); 
+    flex-grow: 1 1 0;
 }
 /* Form column styling*/
 
