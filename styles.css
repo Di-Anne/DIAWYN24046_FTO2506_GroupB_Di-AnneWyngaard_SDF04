@@ -6,6 +6,8 @@ body {
 }
 
 .container {
+    width: 80%;
+    padding: 1.5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 1px solid #fff;
@@ -41,6 +43,7 @@ button {
 /*codespace-logo styling*/
 
 .logo {
-    width: 50%;
+    margin-top: 1.5em;
+    width: 10%;
 }
 /*codespace-logo styling*/
