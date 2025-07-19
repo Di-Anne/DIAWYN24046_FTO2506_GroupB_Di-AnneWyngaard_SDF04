@@ -10,6 +10,19 @@ body {
     border: 1px solid #fff;
 }
 
+/*Form styling*/
+.subscribe-section {
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+}
+
 button {
     display: inline-block;
     color: #fff;
