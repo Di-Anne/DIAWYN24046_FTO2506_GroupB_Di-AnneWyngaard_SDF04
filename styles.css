@@ -1,9 +1,19 @@
 body {
-   background-color: rgb(116, 179, 160); 
+   background-color: rgb(80, 140, 118); 
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(43, 46, 45);
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid #fff;
+}
+
+button {
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(219, 97, 36);
+    border: none;
+    padding: 0.5rem 1.5rem;
 }
