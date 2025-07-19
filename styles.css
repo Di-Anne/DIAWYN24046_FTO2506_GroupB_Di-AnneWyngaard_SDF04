@@ -38,6 +38,10 @@ button {
 /* Form column styling*/
 
 /*codespace-logo styling*/
+.technologies::after {
+
+}
+
 .logo {
     width: 50%;
 }
