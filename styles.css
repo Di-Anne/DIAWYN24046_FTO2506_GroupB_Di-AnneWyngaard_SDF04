@@ -14,16 +14,17 @@ body {
     "form quick tech"
     "form quick tech";
     grid-gap: 20px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     border-bottom: 1px solid rgb(219, 97, 36);
 }
 
 @media (max-width: 400px) {
-    .container {
+    /*.container {
         grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-    }
+    }*/
     .subscribe-section {
         flex-direction: column;
+        width: 150px;
     }
 }
 
@@ -32,7 +33,7 @@ body {
         grid-template-columns: repeat(3,1fr);
         grid-template-areas: 
         "form form form"
-        "quick . tech";
+        "quick tech .";
     }
 }
 
@@ -55,7 +56,7 @@ body {
 
 /*Form column styling*/
 .subscribe-section {
-    width: 45%;
+    width: 80px;
     display: flex;
     justify-content: space-around;
 }
