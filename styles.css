@@ -56,13 +56,12 @@ body {
 
 /*Form column styling*/
 .subscribe-section {
-    width: 80px;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
 
 .subscribe {
-    display: inline-block;
     font-size: 0.6rem;
     border: none;
     border-radius: 5px; 
