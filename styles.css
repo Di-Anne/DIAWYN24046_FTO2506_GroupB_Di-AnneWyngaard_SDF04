@@ -11,7 +11,7 @@ footer {
 }
 
 .container {
-    padding: 1.5em;
+    padding: 2em;
     border-bottom: 1px solid rgb(219, 97, 36);
     display: grid;
     grid-template-columns: 1fr;
@@ -20,7 +20,7 @@ footer {
 
 /* form-styling*/
 .subscribe-form {
-    width: 80%;
+    width: 200px;
     min-height: 11vh;
     display: flex;
     flex-direction: column;
